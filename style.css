@@ -9,3 +9,8 @@ body, html {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.gallery img{
+  max-height: 400px;
+  max-width: 400px;
+}
