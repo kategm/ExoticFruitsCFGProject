@@ -25,3 +25,32 @@ h1 {
   width: 100%;
   height: 100%;
 }
+
+/*
+.gallery img {
+
+    max-width: 400px;
+    max-height: 400px;
+    width: 100%;
+    height: 100%;  
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+/*#prickly-pears {
+    background-image: url('http://www.clever-storage.com/uploads/pics/prickly-pears-text01.jpg');
+  }
+#cherimoya {
+    background-image: url('http://www.besthealthmag.ca/wp-content/uploads/2010/06/Cherimoya.jpg');
+  }
+#mangosteen {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bd/Mangosteen1.jpg');
+  }
+ #prickly-pears {
+    background-image: url('http://www.clever-storage.com/uploads/pics/prickly-pears-text01.jpg');
+  }
+  #prickly-pears {
+    background-image: url('http://www.clever-storage.com/uploads/pics/prickly-pears-text01.jpg');
+  }
+  */
