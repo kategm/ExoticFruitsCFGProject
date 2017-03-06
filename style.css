@@ -25,12 +25,24 @@ h1 {
 }
 
 .gallery img {
-  max-height: 300px;
-  max-width: 400px;
+  height: 200px;
+  width: 200px;
   width: 100%;
   height: 100%;
 }
+/*
+.prickly-pears { 
+   position: relative; 
+   width: 100%; 
+}
 
+.prickly-pears h2 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+}
+*?
 /*
 .gallery img {
 
@@ -42,20 +54,54 @@ h1 {
     background-size: cover;
 }
 */
+h2 {
+  margin: 0;
+}
 
-/*#prickly-pears {
+#prickly-pears {
     background-image: url('http://www.clever-storage.com/uploads/pics/prickly-pears-text01.jpg');
+    height:300px;
+    background-repeat: no-repeat;
+
   }
 #cherimoya {
     background-image: url('http://www.besthealthmag.ca/wp-content/uploads/2010/06/Cherimoya.jpg');
+    height:300px;
+    background-repeat: no-repeat;
   }
 #mangosteen {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/b/bd/Mangosteen1.jpg');
+    height:300px;
+    background-repeat: no-repeat;
   }
- #prickly-pears {
-    background-image: url('http://www.clever-storage.com/uploads/pics/prickly-pears-text01.jpg');
+  
+#starfruit {
+    background-image: url('http://farm1.static.flickr.com/96/231339479_44e2cf1830.jpg');
+    height:300px;
+    background-repeat: no-repeat;
   }
-  #prickly-pears {
-    background-image: url('http://www.clever-storage.com/uploads/pics/prickly-pears-text01.jpg');
+#BuddhaHand {
+    background-image: url('http://www.kitchenkonfidence.com/wp-content/uploads/2012/01/BuddhaHandCitronInfusedVodka3.jpg');
+    height:300px;
+    background-repeat: no-repeat;
   }
-  */
+#cloudberry {
+    background-image: url('https://www.lonelyplanet.com/travel-blog/tip-article/wordpress_uploads/2016/09/cloudberry-close-up-1-edited-cs-5f666f8942ed.jpg');
+    height:300px;
+    background-repeat: no-repeat;
+  }
+#dragon {
+    background-image: url('http://s3.amazonaws.com/cme_public_images/www_livestrong_com/photos.demandstudios.com/getty/article/144/172/484499602_XS.jpg');
+    height:300px;
+    background-repeat: no-repeat;
+  }
+#winterapple {
+    background-image: url('https://sabdho.files.wordpress.com/2013/05/jambu.jpg');
+    height:300px;
+    background-repeat: no-repeat;
+  }
+#rambutan {
+    background-image: url('http://thelongestwayhome.zenfolio.com/img/s8/v9/p395322722-4.jpg');
+    height:300px;
+    background-repeat: no-repeat;
+  }
