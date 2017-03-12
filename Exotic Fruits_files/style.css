@@ -64,8 +64,7 @@ div .container {
 
 .container h2 {
 color: white;
-font-size: 30px;
-text-align: center;
+font-size: 40px;
 }
 
 .gallery img {
@@ -74,11 +73,9 @@ text-align: center;
   width: 100%;
   height: 100%;
 }
-
 h2 {
   margin: 0;
 }
-
 h3 {
   margin: 0;
 }
@@ -140,7 +137,7 @@ h3 {
     margin: 0;
     padding: 20px;
     background-color: rgba(177, 237, 178, 0.4);
-    color: black;
+    color:;
 }
 
 #mangotext {
@@ -152,7 +149,7 @@ h3 {
     margin: 0;
     padding: 20px;
     background-color: rgba(177, 237, 178, 0.4);
-    color: black;
+    color:;
 }
 
 #buddhatext {
@@ -164,7 +161,7 @@ h3 {
     margin: 0;
     padding: 20px;
     background-color: rgba(177, 237, 178, 0.4);
-    color: black;
+    color:;
 }
 
 #startext {
@@ -176,7 +173,7 @@ h3 {
     margin: 0;
     padding: 20px;
     background-color: rgba(177, 237, 178, 0.4);
-    color: black;
+    color:;
 }
 
 #berrytext {
@@ -188,7 +185,7 @@ h3 {
     margin: 0;
     padding: 20px;
     background-color: rgba(177, 237, 178, 0.4);
-    color: black;
+    color:;
 }
 
 #dragontext {
@@ -200,7 +197,7 @@ h3 {
     margin: 0;
     padding: 20px;
     background-color: rgba(177, 237, 178, 0.4);
-    color: black;
+    color:;
 }
 
 #rambutext {
@@ -212,7 +209,263 @@ h3 {
     margin: 0;
     padding: 20px;
     background-color: rgba(177, 237, 178, 0.4);
-    color: black;
+    color:;
+}
+
+#perstext {
+  display: none;
+}
+#persimmon:hover #perstext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+#peartext {
+  display: none;
+}
+#prickly-pears:hover #peartext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+
+#recipes {
+  font-size: 50px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  background-color: #FFB6C1
+
+}
+
+.active
+
+  #map {
+    height: 400px;
+    width: 100%;
+   }
+
+#custardpudding img {
+  width: 100%
+  height: 100px;
+  }
+=======
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+nav {
+    background-color: #F8F8F8;
+    border-color: #E7E7E7;
+}
+
+
+.bg {
+    background-image: url(leaves.jpg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+
+}
+
+#title {
+  height: 100%;
+}
+
+.bg h1 {
+   position: absolute;
+   top: 200px;
+   width: 100%;
+   width: 74%;
+   font-size: 100px;
+   color: white;
+   padding: 20px;
+   text-align: center;
+   font-family: 'Oswald', sans-serif;
+}
+
+h1
+{
+  background: #FFB6C1;
+}
+
+div .container {
+  max-width:;
+
+}
+.container {
+  width: 100%;
+  padding: 0;
+  background-color: rgba(193,255,182, 0.5);
+  background-size: cover;
+  margin: 0 auto;
+  background-repeat: repeat-y;
+  font-family: 'Oswald', sans-serif;
+}
+
+.gallery img {
+  height: 200px;
+  width: 200px;
+  width: 100%;
+  height: 100%;
+}
+h2 {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
+
+#prickly-pears {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/eb/55/05/eb55059c0ba1ab057751801da6ce1663.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+}
+#cherimoya {
+    background-image: url('https://www.metro.ca/userfiles/image/fruits-vegetables-herbs/exotic-fruits/cherimoya-460x460.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+#mangosteen {
+    background-image: url('https://s-media-cache-ak0.pinimg.com/736x/49/76/2d/49762d3bc32f0ff8ccc94e616c4a5a4c.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+
+#starfruit {
+    background-image: url('https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12534302_1522453708051313_1110727460_n.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+#BuddhaHand {
+    background-image: url('https://static1.squarespace.com/static/569c6dc8cbced647da3a90c6/569c784042f55250d91dec91/569c78401f00d44036a16f61/1453094977489/');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+#cloudberry {
+    background-image: url('https://alaskamastergardener.community.uaf.edu/files/2015/08/Devils-Lake-Aqpiks-2013.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+#dragon {
+    background-image: url('http://juicing-for-health.com/wp-content/uploads/2015/04/dragonfruit.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+#persimmon {
+    background-image: url('https://img.tesco.com/Groceries/pi/486/0000010069486/OutofPack/Lidoff_540x540.jpg');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+#rambutan {
+    background-image: url('https://static1.squarespace.com/static/567d11d740667a315356aa3e/568364341c12101f97af12c6/5882ccc0363d3c0e23c883ae/1484967111718/');
+    height:450px;
+    background-repeat: no-repeat;
+  }
+
+
+#cheritext {
+  display: none;
+}
+#cherimoya:hover #cheritext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+#mangotext {
+  display: none;
+}
+#mangosteen:hover #mangotext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+#buddhatext {
+  display: none;
+}
+#BuddhaHand:hover #buddhatext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+#startext {
+  display: none;
+}
+#starfruit:hover #startext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+#berrytext {
+  display: none;
+}
+#cloudberry :hover #berrytext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+#dragontext {
+  display: none;
+}
+#dragon:hover #dragontext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
+}
+
+#rambutext {
+  display: none;
+}
+#rambutan:hover #rambutext {
+    display: block;
+    font-weight: 600;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(177, 237, 178, 0.4);
+    color:;
 }
 
 #perstext {
@@ -258,4 +511,4 @@ h3 {
 #custardpudding img {
   width: 100%
   height: 100px;
-}
+  }
